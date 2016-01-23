@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/config.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/config/CConfig.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/config/CConfig.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/config/CParserINI.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/config/CParserINI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/content/CAbstractContent.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/content/CAbstractContent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/content/CDirContent.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/content/CDirContent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/content/CEmptyContent.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/content/CEmptyContent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/content/CExternalContent.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/content/CExternalContent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/content/CFileContent.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/content/CFileContent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/content/CHTMLGenerator.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/content/CHTMLGenerator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/content/CPathResolver.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/content/CPathResolver.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/content/CStringContent.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/content/CStringContent.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exceptions.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exceptions/GeneralException.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exceptions/filesystem/FileErrorException.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exceptions/filesystem/FileNotFoundException.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exceptions/filesystem/FilesystemException.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exceptions/filesystem/InternalErrorException.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exceptions/filesystem/PermissionDeniedException.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exceptions/network/NetworkException.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exceptions/network/socket/PortInitializationException.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exceptions/network/socket/SocketReceiverException.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exceptions/network/socket/SocketSenderException.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exceptions/request/MethodProhibitedException.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exceptions/request/RequestParserException.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exceptions/request/ServiceUnavailableException.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exceptions/startup/StartupException.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exceptions/startup/ini_file/BlockUndefinedException.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exceptions/startup/ini_file/INIParserException.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exceptions/startup/ini_file/ParamUndefinedException.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/globals.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/globals.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/logger.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/logger/CLogger.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/logger/CLogger.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/logger/ELogFlags.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/logger/ELogFlags.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/network.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/network/CPortObtainer.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/network/CPortObtainer.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/network/CSocketIO.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/network/CSocketIO.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/network/TSocketRemoteConnection.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/requests.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/requests/CRequest.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/requests/CRequest.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/requests/CRequestParser.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/requests/CRequestParser.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/requests/EMethodType.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/requests/EMethodType.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/requests/response_generators/CAbstractGenerator.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/requests/response_generators/CAbstractGenerator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/requests/response_generators/CErrorGenerator.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/requests/response_generators/CErrorGenerator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/requests/response_generators/CGetGenerator.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/requests/response_generators/CGetGenerator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/requests/response_generators/CHeadGenerator.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/requests/response_generators/CHeadGenerator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/requests/response_generators/COptionsGenerator.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/requests/response_generators/COptionsGenerator.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/signals/signals.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/signals/signals.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/threads.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/threads/CPortThread.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/threads/CPortThread.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/threads/CRunnable.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/threads/CRunnable.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/threads/CSignalThread.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/threads/CSignalThread.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/threads/CThreadPool.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/threads/CThreadPool.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/threads/CThreadSafeQueue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/threads/CWorkerThread.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/threads/CWorkerThread.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/threads/primitives/CMutex.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/threads/primitives/CMutex.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/threads/primitives/CSem.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/threads/primitives/CSem.h" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include/cilk" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include/sanitizer" />
+          <root url="file:///usr/local/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include/cilk" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/5/include/sanitizer" />
+          <root url="file:///usr/local/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

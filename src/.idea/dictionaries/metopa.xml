@@ -1,0 +1,35 @@
+<component name="ProjectDictionaryState">
+  <dictionary name="metopa">
+    <words>
+      <w>addr</w>
+      <w>addrinfo</w>
+      <w>addrlen</w>
+      <w>chrono</w>
+      <w>clickable</w>
+      <w>conns</w>
+      <w>crit</w>
+      <w>csocketreceiver</w>
+      <w>delim</w>
+      <w>enoent</w>
+      <w>fdmax</w>
+      <w>ifile</w>
+      <w>ifstream</w>
+      <w>iter</w>
+      <w>logflags</w>
+      <w>ltime</w>
+      <w>maxenum</w>
+      <w>msec</w>
+      <w>obtainer</w>
+      <w>proc</w>
+      <w>pthread</w>
+      <w>recvd</w>
+      <w>remoteaddr</w>
+      <w>servinfo</w>
+      <w>sockfd</w>
+      <w>throught</w>
+      <w>vals</w>
+      <w>variadic</w>
+      <w>writen</w>
+    </words>
+  </dictionary>
+</component>
